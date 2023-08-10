@@ -1,0 +1,9 @@
+services:
+  demo:
+    image: nginx
+    volumes:
+      - ./html3:/usr/share/nginx/html
+    ports:
+      - "8080:80"
+    environment:
+      - NGINX_PORT=80
