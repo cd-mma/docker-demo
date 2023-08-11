@@ -1,6 +1,6 @@
 services:
   demo:
-    image: nginx
+    image: docker-demo-l:1.0
     volumes:
       - ./html3:/usr/share/nginx/html
     ports:
